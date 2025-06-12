@@ -90,7 +90,6 @@
 
     <!-- Firebase Configuration -->
     <string name="google_app_id">1:952458125922:android:ac4586423399944859673b</string>
-    <string name="google_api_key">AIzaSyB8QD9R2VARVkxXObZV2LVGD2DANNE8IDo</string>
     <string name="firebase_database_url">https://sparky-febd0.firebaseio.com/</string>
     <!-- Side menu items -->
     <string name="editProfile">Modifier le profil</string>
