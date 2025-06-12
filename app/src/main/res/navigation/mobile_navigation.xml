@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/menu_expenses">
+
+    <fragment
+        android:id="@+id/menu_expenses"
+        android:name="com.personal_finance_app.ui.home.HomeFragment"
+        android:label="@string/title_expenses"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/menu_insights"
+        android:name="com.personal_finance_app.ui.dashboard.DashboardFragment"
+        android:label="@string/title_insights"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/menu_goals"
+        android:name="com.personal_finance_app.ui.notifications.NotificationsFragment"
+        android:label="@string/goalsTitle"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/menu_milestones"
+        android:name="com.personal_finance_app.ui.notifications.NotificationsFragment"
+        android:label="@string/title_milestones"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
